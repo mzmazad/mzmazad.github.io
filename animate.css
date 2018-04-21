@@ -1325,6 +1325,10 @@
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+
+-webkit-animation-duration: 8s;
+-moz-animation-duration: 8;
+-ms-transition-animation-duration: 8s;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -1614,6 +1618,10 @@
 .fadeOut {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
+
+-webkit-animation-duration: 8s;
+-moz-animation-duration: 8;
+-ms-transition-animation-duration: 8s;
 }
 
 @-webkit-keyframes fadeOutDown {
@@ -2878,6 +2886,9 @@
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8;
+  -ms-transition-animation-duration: 8s;
 }
 
 @-webkit-keyframes zoomInDown {
@@ -3079,6 +3090,9 @@
 .zoomOut {
   -webkit-animation-name: zoomOut;
   animation-name: zoomOut;
+  -webkit-animation-duration: 8s;
+-moz-animation-duration: 8;
+-ms-transition-animation-duration: 8s;
 }
 
 @-webkit-keyframes zoomOutDown {
