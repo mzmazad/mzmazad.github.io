@@ -729,7 +729,8 @@
   content: "\e609";
 }
 .icon-social-linkedin:before {
-  content: "\e60a";
+  content: "\e60a"; 
+  /*content: "\https://www.linkedin.com/in/azad-ziyard/";*/
 }
 .icon-social-pinterest:before {
   content: "\e60b";
