@@ -3288,6 +3288,10 @@
 .slideInDown {
   -webkit-animation-name: slideInDown;
   animation-name: slideInDown;
+
+  -webkit-animation-duration: 8s;
+-moz-animation-duration: 8;
+-ms-transition-animation-duration: 8s;
 }
 
 @-webkit-keyframes slideInLeft {
@@ -3381,6 +3385,10 @@
 .slideInUp {
   -webkit-animation-name: slideInUp;
   animation-name: slideInUp;
+
+  -webkit-animation-duration: 8s;
+-moz-animation-duration: 8;
+-ms-transition-animation-duration: 8s;
 }
 
 @-webkit-keyframes slideOutDown {
