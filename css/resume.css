@@ -151,3 +151,20 @@ a:hover, a:focus, a:active {
   color: #824027;
 }
 
+.footer { 
+  /*position: fixed;*/
+  position: fixed;
+  
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: #0E07A6;
+          color: white;
+          text-align: center;
+          height: 20px;
+          font-size: .75rem
+
+}
+
+
+ 
