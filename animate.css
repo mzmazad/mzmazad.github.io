@@ -163,6 +163,10 @@
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
+
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8;
+  -ms-transition-animation-duration: 8s;
 }
 
 @-webkit-keyframes rubberBand {
@@ -581,6 +585,8 @@
 .wobble {
   -webkit-animation-name: wobble;
   animation-name: wobble;
+
+  animation-delay: 5s;
 }
 
 @-webkit-keyframes jello {
@@ -1326,9 +1332,9 @@
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 
--webkit-animation-duration: 8s;
--moz-animation-duration: 8;
--ms-transition-animation-duration: 8s;
+-webkit-animation-duration: 18s;
+-moz-animation-duration: 18;
+-ms-transition-animation-duration: 18s;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -2886,9 +2892,11 @@
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
+  
   -webkit-animation-duration: 8s;
   -moz-animation-duration: 8;
   -ms-transition-animation-duration: 8s;
+     
 }
 
 @-webkit-keyframes zoomInDown {
